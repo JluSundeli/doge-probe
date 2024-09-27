@@ -1,0 +1,22 @@
+Circuit: * D:\Deli_sync_ws\Project\Current_probe\Doge_probe_deli\spice\AD8129_gain.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Sep 19 14:44:21 2024
+Total elapsed time: 0.087 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 14509
+traniter = 14484
+tranpoints = 3305
+accept = 2626
+rejected = 679
+matrix size = 55
+fillins = 51
+solver = Normal
+Avg thread counts: 1.1/1.3/1.3/1.1
+Matrix Compiler1: 4.98 KB object code size  1.1/0.7/[0.5]
+Matrix Compiler2: 5.31 KB object code size  0.4/0.5/[0.3]
+

@@ -1,0 +1,17 @@
+19:13:32 **** Incremental Build of configuration Debug for project DAC_TST ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32G473xx -DUSE_HAL_DRIVER -DDEBUG -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DAC_TST.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\TencentSync\ws_stm32\DAC_TST\STM32G473CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DAC_TST.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DAC_TST.elf
+ 
+arm-none-eabi-objdump -h -S  DAC_TST.elf  > "DAC_TST.list"
+arm-none-eabi-objcopy  -O binary  DAC_TST.elf  "DAC_TST.bin"
+arm-none-eabi-size   DAC_TST.elf 
+   text	   data	    bss	    dec	    hex	filename
+  44588	    484	   2220	  47292	   b8bc	DAC_TST.elf
+Finished building: default.size.stdout
+ 
+Finished building: DAC_TST.bin
+ 
+Finished building: DAC_TST.list
+ 

@@ -1,0 +1,19 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -48 -40 48 40
+WINDOW 0 0 -40 Bottom 2
+WINDOW 3 0 40 Top 2
+WINDOW 39 0 64 Top 2
+SYMATTR Prefix X
+SYMATTR Value LM4041_N_ADJC1P233
+SYMATTR ModelFile D:\Deli_sync_ws\Project\Current_probe\Doge_probe_deli\spice\LM4041_N_ADJC1P233_TRANS.lib
+SYMATTR SpiceLine TOL=1
+PIN -48 0 LEFT 8
+PINATTR PinName FB
+PINATTR SpiceOrder 1
+PIN 48 -16 RIGHT 8
+PINATTR PinName V+
+PINATTR SpiceOrder 2
+PIN 48 16 RIGHT 8
+PINATTR PinName V-
+PINATTR SpiceOrder 3
