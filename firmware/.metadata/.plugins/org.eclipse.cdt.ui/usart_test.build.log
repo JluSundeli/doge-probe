@@ -1,0 +1,10 @@
+15:23:37 **** Incremental Build of configuration Debug for project usart_test ****
+make -j12 all 
+arm-none-eabi-size  usart_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  36844	    468	   2052	  39364	   99c4	usart_test.elf
+Finished building: default.size.stdout
+ 
+
+15:23:38 Build Finished. 0 errors, 0 warnings. (took 200ms)
+

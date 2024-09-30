@@ -1,0 +1,45 @@
+2024-09-30 15:09:37,000 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-09-30 15:09:39,931 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-09-30 15:09:58,266 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 259663920 Bytes (559939584)
+2024-09-30 15:09:59,553 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 195077176 Bytes (559939584)
+2024-09-30 15:10:02,841 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_g4_v160.zip
+2024-09-30 15:17:52,249 [INFO] AnalyticsPlugin:368 - Accepted License(s): [FW.G4.1.6.0]
+2024-09-30 15:17:52,250 [INFO] FileExtend:240 - Unzip File : stm32cube_fw_g4_v160.zip
+2024-09-30 15:17:52,251 [INFO] FileExtend:255 - Standard Zip Deflate
+2024-09-30 15:18:12,690 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2024-09-30 15:18:12,826 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-09-30 15:18:12,827 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-09-30 15:18:12,828 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2024-09-30 15:18:12,831 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 251081416 Bytes (559939584)
+2024-09-30 15:18:13,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-09-30 15:18:13,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-09-30 15:18:13,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-09-30 15:18:13,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-09-30 15:18:13,162 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-09-30 15:18:13,164 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-09-30 15:18:13,327 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\MXTmpFiles\license.tmp_save
+2024-09-30 15:18:13,574 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\MXTmpFiles\license.tmp
+2024-09-30 15:18:13,646 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\MXTmpFiles\gpio.tmp_save
+2024-09-30 15:18:13,752 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\MXTmpFiles\gpio.tmp
+2024-09-30 15:18:13,855 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Src\stm32g4xx_it.c_save
+2024-09-30 15:18:13,959 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Src\stm32g4xx_it.c
+2024-09-30 15:18:13,964 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Inc\stm32g4xx_it.h_save
+2024-09-30 15:18:14,027 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Inc\stm32g4xx_it.h
+2024-09-30 15:18:14,045 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Src\stm32g4xx_hal_msp.c_save
+2024-09-30 15:18:14,151 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Src\stm32g4xx_hal_msp.c
+2024-09-30 15:18:14,157 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\MXTmpFiles\system.tmp_save
+2024-09-30 15:18:14,217 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\MXTmpFiles\system.tmp
+2024-09-30 15:18:14,227 [INFO] CodeEngine:311 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Inc\stm32g4xx_hal_conf.h_save
+2024-09-30 15:18:14,297 [INFO] CodeEngine:335 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Inc\stm32g4xx_hal_conf.h
+2024-09-30 15:18:14,319 [WARN] IPConfigManager:3005 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2024-09-30 15:18:14,332 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Inc\main.h_save
+2024-09-30 15:18:14,412 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Inc\main.h
+2024-09-30 15:18:14,418 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Src\main.c_save
+2024-09-30 15:18:14,527 [INFO] CodeEngine:279 - Generated code: D:\Deli_sync_ws\Project\Current_probe\doge-probe\firmware\usart_test\Core\Src\main.c
+2024-09-30 15:18:14,902 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 137mS.
+2024-09-30 15:18:14,907 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-09-30 15:18:15,005 [INFO] ConfigFileManager:1531 - The Die is : DIE469
+2024-09-30 15:18:15,011 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-09-30 15:18:15,015 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-09-30 15:18:15,020 [INFO] ApiDbMcu:508 - Load IP Config File for USBPD
+2024-09-30 15:18:15,027 [INFO] ApiDbMcu:508 - Load IP Config File for USB_Device
