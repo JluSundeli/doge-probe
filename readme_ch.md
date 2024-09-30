@@ -4,12 +4,11 @@
 
 ## 性能指标
 
-
 ## 附录1 开发工具版本
 
 ## 附录2 github问题解决
 运行
 `ssh -T git@github.com`
-出现`Connection Closed by xxx.xxx.xxx.xxx port 22`的问题
-谜一样的能用https但是不能同http，出现此问题的大多数是中国人。可能是中国的互联网不太自由。
+出现`Connection Closed by xxx.xxx.xxx.xxx port 22`的问题  
+谜一样的能用https但是不能同http，出现此问题的大多数是中国人。可能是中国的互联网不太自由。  
 https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port
